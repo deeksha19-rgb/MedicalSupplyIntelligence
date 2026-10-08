@@ -1,0 +1,201 @@
+hospital_id,medicine_id,medicine_name,date,current_stock,daily_demand,predicted_demand,expiry_date,days_to_expiry,days_of_supply,estimated_usage_before_expiry,excess_stock,expiry_risk,expiry_risk_score,risk_reason
+H01,M01,Paracetamol,2025-12-31,224,108,,2026-05-09,129,2.07,224,0,LOW,0.037,Sufficient shelf-life (129 days) relative to stock level (2.07d supply). Low wastage risk.
+H01,M02,Ibuprofen,2025-12-31,0,64,,2026-04-23,113,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H01,M03,Amoxicillin,2025-12-31,0,59,,2026-04-24,114,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H01,M04,Azithromycin,2025-12-31,0,42,,2026-06-17,168,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H01,M05,Ceftriaxone,2025-12-31,117,40,,2026-03-29,88,2.92,117,0,LOW,0.073,Sufficient shelf-life (88 days) relative to stock level (2.92d supply). Low wastage risk.
+H01,M06,Metformin,2025-12-31,197,65,,2026-04-26,116,3.03,197,0,LOW,0.046,Sufficient shelf-life (116 days) relative to stock level (3.03d supply). Low wastage risk.
+H01,M07,Insulin,2025-12-31,241,32,,2026-05-04,124,7.53,241,0,LOW,0.044,Sufficient shelf-life (124 days) relative to stock level (7.53d supply). Low wastage risk.
+H01,M08,Salbutamol,2025-12-31,0,48,,2026-06-09,160,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H01,M09,ORS,2025-12-31,0,93,,2026-06-16,167,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H01,M10,IV Fluids,2025-12-31,0,100,,2026-06-17,168,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H01,M11,Omeprazole,2025-12-31,211,59,,2026-05-29,149,3.58,211,0,LOW,0.027,Sufficient shelf-life (149 days) relative to stock level (3.58d supply). Low wastage risk.
+H01,M12,Pantoprazole,2025-12-31,15,62,,2026-05-18,138,0.24,15,0,LOW,0.03,Sufficient shelf-life (138 days) relative to stock level (0.24d supply). Low wastage risk.
+H01,M13,Amlodipine,2025-12-31,0,53,,2026-05-01,121,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H01,M14,Atorvastatin,2025-12-31,213,40,,2026-03-04,63,5.32,213,0,LOW,0.113,Sufficient shelf-life (63 days) relative to stock level (5.32d supply). Low wastage risk.
+H01,M15,Cetirizine,2025-12-31,0,52,,2026-05-13,133,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H01,M16,Dexamethasone,2025-12-31,860,24,,2026-03-28,87,35.83,860,0,MEDIUM,0.112,Elevated inventory (35.83d supply) with expiration within 87 days.
+H01,M17,Ondansetron,2025-12-31,783,34,,2026-04-22,112,23.03,783,0,LOW,0.067,Sufficient shelf-life (112 days) relative to stock level (23.03d supply). Low wastage risk.
+H01,M18,Furosemide,2025-12-31,141,34,,2026-03-01,60,4.15,141,0,MEDIUM,0.117,Approaching expiry window (60 days remaining). Usage must be closely monitored.
+H01,M19,Adrenaline,2025-12-31,0,24,,2026-02-27,58,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H01,M20,Salbutamol Inhaler,2025-12-31,379,25,,2026-06-25,176,15.16,379,0,LOW,0.025,Sufficient shelf-life (176 days) relative to stock level (15.16d supply). Low wastage risk.
+H02,M01,Paracetamol,2025-12-31,0,170,,2026-03-27,86,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H02,M02,Ibuprofen,2025-12-31,576,76,,2026-02-22,53,7.58,576,0,MEDIUM,0.138,Approaching expiry window (53 days remaining). Usage must be closely monitored.
+H02,M03,Amoxicillin,2025-12-31,614,67,,2026-06-23,174,9.16,614,0,LOW,0.022,Sufficient shelf-life (174 days) relative to stock level (9.16d supply). Low wastage risk.
+H02,M04,Azithromycin,2025-12-31,0,60,,2026-06-02,153,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H02,M05,Ceftriaxone,2025-12-31,689,55,,2026-03-22,81,12.53,689,0,LOW,0.093,Sufficient shelf-life (81 days) relative to stock level (12.53d supply). Low wastage risk.
+H02,M06,Metformin,2025-12-31,4478,98,,2026-03-29,88,45.69,4478,0,MEDIUM,0.121,Elevated inventory (45.69d supply) with expiration within 88 days.
+H02,M07,Insulin,2025-12-31,0,47,,2026-04-10,100,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H02,M08,Salbutamol,2025-12-31,0,61,,2026-06-09,160,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H02,M09,ORS,2025-12-31,0,129,,2026-04-21,111,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H02,M10,IV Fluids,2025-12-31,0,106,,2026-03-05,64,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H02,M11,Omeprazole,2025-12-31,662,88,,2026-04-05,95,7.52,662,0,LOW,0.069,Sufficient shelf-life (95 days) relative to stock level (7.52d supply). Low wastage risk.
+H02,M12,Pantoprazole,2025-12-31,613,66,,2026-04-13,103,9.29,613,0,LOW,0.063,Sufficient shelf-life (103 days) relative to stock level (9.29d supply). Low wastage risk.
+H02,M13,Amlodipine,2025-12-31,0,69,,2026-02-16,47,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H02,M14,Atorvastatin,2025-12-31,0,63,,2026-04-10,100,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H02,M15,Cetirizine,2025-12-31,0,83,,2026-03-06,65,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H02,M16,Dexamethasone,2025-12-31,531,40,,2026-03-17,76,13.28,531,0,LOW,0.102,Sufficient shelf-life (76 days) relative to stock level (13.28d supply). Low wastage risk.
+H02,M17,Ondansetron,2025-12-31,0,43,,2026-02-23,54,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H02,M18,Furosemide,2025-12-31,0,50,,2026-03-18,77,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H02,M19,Adrenaline,2025-12-31,16,24,,2026-02-28,59,0.67,16,0,MEDIUM,0.113,Approaching expiry window (59 days remaining). Usage must be closely monitored.
+H02,M20,Salbutamol Inhaler,2025-12-31,212,44,,2026-03-07,66,4.82,212,0,LOW,0.107,Sufficient shelf-life (66 days) relative to stock level (4.82d supply). Low wastage risk.
+H03,M01,Paracetamol,2025-12-31,393,166,,2026-06-08,159,2.37,393,0,LOW,0.023,Sufficient shelf-life (159 days) relative to stock level (2.37d supply). Low wastage risk.
+H03,M02,Ibuprofen,2025-12-31,0,88,,2026-05-07,127,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H03,M03,Amoxicillin,2025-12-31,42,60,,2026-04-05,95,0.7,42,0,LOW,0.062,Sufficient shelf-life (95 days) relative to stock level (0.7d supply). Low wastage risk.
+H03,M04,Azithromycin,2025-12-31,193,52,,2026-03-01,60,3.71,193,0,MEDIUM,0.117,Approaching expiry window (60 days remaining). Usage must be closely monitored.
+H03,M05,Ceftriaxone,2025-12-31,0,54,,2026-06-01,152,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H03,M06,Metformin,2025-12-31,1084,81,,2026-05-26,146,13.38,1084,0,LOW,0.036,Sufficient shelf-life (146 days) relative to stock level (13.38d supply). Low wastage risk.
+H03,M07,Insulin,2025-12-31,0,38,,2026-05-23,143,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H03,M08,Salbutamol,2025-12-31,0,62,,2026-04-06,96,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H03,M09,ORS,2025-12-31,0,105,,2026-04-19,109,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H03,M10,IV Fluids,2025-12-31,0,106,,2026-04-22,112,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H03,M11,Omeprazole,2025-12-31,0,74,,2026-03-06,65,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H03,M12,Pantoprazole,2025-12-31,1234,72,,2026-06-26,177,17.14,1234,0,LOW,0.025,Sufficient shelf-life (177 days) relative to stock level (17.14d supply). Low wastage risk.
+H03,M13,Amlodipine,2025-12-31,184,63,,2026-03-11,70,2.92,184,0,LOW,0.098,Sufficient shelf-life (70 days) relative to stock level (2.92d supply). Low wastage risk.
+H03,M14,Atorvastatin,2025-12-31,501,62,,2026-04-21,111,8.08,501,0,LOW,0.054,Sufficient shelf-life (111 days) relative to stock level (8.08d supply). Low wastage risk.
+H03,M15,Cetirizine,2025-12-31,1342,74,,2026-03-15,74,18.14,1342,0,LOW,0.112,Sufficient shelf-life (74 days) relative to stock level (18.14d supply). Low wastage risk.
+H03,M16,Dexamethasone,2025-12-31,0,32,,2026-06-26,177,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H03,M17,Ondansetron,2025-12-31,0,45,,2026-05-27,147,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H03,M18,Furosemide,2025-12-31,0,49,,2026-05-28,148,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H03,M19,Adrenaline,2025-12-31,180,24,,2026-02-27,58,7.5,180,0,MEDIUM,0.127,Approaching expiry window (58 days remaining). Usage must be closely monitored.
+H03,M20,Salbutamol Inhaler,2025-12-31,408,33,,2026-04-05,95,12.36,408,0,LOW,0.075,Sufficient shelf-life (95 days) relative to stock level (12.36d supply). Low wastage risk.
+H04,M01,Paracetamol,2025-12-31,0,111,,2026-04-20,110,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H04,M02,Ibuprofen,2025-12-31,0,63,,2026-04-16,106,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H04,M03,Amoxicillin,2025-12-31,103,60,,2026-02-16,47,1.72,103,0,MEDIUM,0.141,Approaching expiry window (47 days remaining). Usage must be closely monitored.
+H04,M04,Azithromycin,2025-12-31,458,49,,2026-04-03,93,9.35,458,0,LOW,0.074,Sufficient shelf-life (93 days) relative to stock level (9.35d supply). Low wastage risk.
+H04,M05,Ceftriaxone,2025-12-31,203,48,,2026-04-17,107,4.23,203,0,LOW,0.054,Sufficient shelf-life (107 days) relative to stock level (4.23d supply). Low wastage risk.
+H04,M06,Metformin,2025-12-31,0,84,,2026-06-18,169,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H04,M07,Insulin,2025-12-31,0,36,,2026-02-24,55,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H04,M08,Salbutamol,2025-12-31,523,56,,2026-03-24,83,9.34,523,0,LOW,0.087,Sufficient shelf-life (83 days) relative to stock level (9.34d supply). Low wastage risk.
+H04,M09,ORS,2025-12-31,116,106,,2026-05-21,141,1.09,116,0,LOW,0.029,Sufficient shelf-life (141 days) relative to stock level (1.09d supply). Low wastage risk.
+H04,M10,IV Fluids,2025-12-31,0,100,,2026-05-24,144,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H04,M11,Omeprazole,2025-12-31,0,70,,2026-02-19,50,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H04,M12,Pantoprazole,2025-12-31,0,59,,2026-04-30,120,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H04,M13,Amlodipine,2025-12-31,2254,51,,2026-02-22,53,44.2,2254,0,HIGH,0.207,"Narrow shelf-life of 53 days with substantial inventory (44.2d supply, 83.4% shelf-life coverage)."
+H04,M14,Atorvastatin,2025-12-31,0,52,,2026-05-21,141,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H04,M15,Cetirizine,2025-12-31,419,51,,2026-05-22,142,8.22,419,0,LOW,0.034,Sufficient shelf-life (142 days) relative to stock level (8.22d supply). Low wastage risk.
+H04,M16,Dexamethasone,2025-12-31,10,35,,2026-03-23,82,0.29,10,0,LOW,0.077,Sufficient shelf-life (82 days) relative to stock level (0.29d supply). Low wastage risk.
+H04,M17,Ondansetron,2025-12-31,0,46,,2026-06-24,175,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H04,M18,Furosemide,2025-12-31,793,37,,2026-05-24,144,21.43,793,0,LOW,0.042,Sufficient shelf-life (144 days) relative to stock level (21.43d supply). Low wastage risk.
+H04,M19,Adrenaline,2025-12-31,0,18,,2026-02-27,58,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H04,M20,Salbutamol Inhaler,2025-12-31,0,36,,2026-02-27,58,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H05,M01,Paracetamol,2025-12-31,1044,115,,2026-04-12,102,9.08,1044,0,LOW,0.064,Sufficient shelf-life (102 days) relative to stock level (9.08d supply). Low wastage risk.
+H05,M02,Ibuprofen,2025-12-31,0,60,,2026-02-21,52,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H05,M03,Amoxicillin,2025-12-31,0,44,,2026-05-17,137,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H05,M04,Azithromycin,2025-12-31,0,40,,2026-05-28,148,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H05,M05,Ceftriaxone,2025-12-31,353,43,,2026-05-30,150,8.21,353,0,LOW,0.03,Sufficient shelf-life (150 days) relative to stock level (8.21d supply). Low wastage risk.
+H05,M06,Metformin,2025-12-31,686,61,,2026-06-02,153,11.25,686,0,LOW,0.031,Sufficient shelf-life (153 days) relative to stock level (11.25d supply). Low wastage risk.
+H05,M07,Insulin,2025-12-31,566,31,,2026-02-19,50,18.26,566,0,HIGH,0.167,"Narrow shelf-life of 50 days with substantial inventory (18.26d supply, 36.5% shelf-life coverage)."
+H05,M08,Salbutamol,2025-12-31,485,37,,2026-06-20,171,13.11,485,0,LOW,0.025,Sufficient shelf-life (171 days) relative to stock level (13.11d supply). Low wastage risk.
+H05,M09,ORS,2025-12-31,0,61,,2026-04-04,94,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H05,M10,IV Fluids,2025-12-31,1322,94,,2026-03-30,89,14.06,1322,0,LOW,0.084,Sufficient shelf-life (89 days) relative to stock level (14.06d supply). Low wastage risk.
+H05,M11,Omeprazole,2025-12-31,29,50,,2026-06-07,158,0.58,29,0,LOW,0.022,Sufficient shelf-life (158 days) relative to stock level (0.58d supply). Low wastage risk.
+H05,M12,Pantoprazole,2025-12-31,562,42,,2026-04-19,109,13.38,562,0,LOW,0.061,Sufficient shelf-life (109 days) relative to stock level (13.38d supply). Low wastage risk.
+H05,M13,Amlodipine,2025-12-31,0,41,,2026-05-09,129,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H05,M14,Atorvastatin,2025-12-31,0,38,,2026-03-23,82,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H05,M15,Cetirizine,2025-12-31,0,63,,2026-05-28,148,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H05,M16,Dexamethasone,2025-12-31,0,29,,2026-06-22,173,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H05,M17,Ondansetron,2025-12-31,0,35,,2026-05-17,137,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H05,M18,Furosemide,2025-12-31,417,29,,2026-05-30,150,14.38,417,0,LOW,0.034,Sufficient shelf-life (150 days) relative to stock level (14.38d supply). Low wastage risk.
+H05,M19,Adrenaline,2025-12-31,0,18,,2026-04-25,115,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H05,M20,Salbutamol Inhaler,2025-12-31,160,51,,2026-06-10,161,3.14,160,0,LOW,0.023,Sufficient shelf-life (161 days) relative to stock level (3.14d supply). Low wastage risk.
+H06,M01,Paracetamol,2025-12-31,1154,109,,2026-03-17,76,10.59,1154,0,LOW,0.098,Sufficient shelf-life (76 days) relative to stock level (10.59d supply). Low wastage risk.
+H06,M02,Ibuprofen,2025-12-31,2026,73,,2026-04-04,94,27.75,2026,0,LOW,0.092,Sufficient shelf-life (94 days) relative to stock level (27.75d supply). Low wastage risk.
+H06,M03,Amoxicillin,2025-12-31,186,42,,2026-06-23,174,4.43,186,0,LOW,0.019,Sufficient shelf-life (174 days) relative to stock level (4.43d supply). Low wastage risk.
+H06,M04,Azithromycin,2025-12-31,0,29,,2026-05-13,133,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H06,M05,Ceftriaxone,2025-12-31,216,39,,2026-04-18,108,5.54,216,0,LOW,0.055,Sufficient shelf-life (108 days) relative to stock level (5.54d supply). Low wastage risk.
+H06,M06,Metformin,2025-12-31,715,54,,2026-05-26,146,13.24,715,0,LOW,0.035,Sufficient shelf-life (146 days) relative to stock level (13.24d supply). Low wastage risk.
+H06,M07,Insulin,2025-12-31,0,25,,2026-06-17,168,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H06,M08,Salbutamol,2025-12-31,0,53,,2026-06-05,156,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H06,M09,ORS,2025-12-31,475,76,,2026-06-19,170,6.25,475,0,LOW,0.021,Sufficient shelf-life (170 days) relative to stock level (6.25d supply). Low wastage risk.
+H06,M10,IV Fluids,2025-12-31,47,90,,2026-05-24,144,0.52,47,0,LOW,0.028,Sufficient shelf-life (144 days) relative to stock level (0.52d supply). Low wastage risk.
+H06,M11,Omeprazole,2025-12-31,866,57,,2026-05-31,151,15.19,866,0,LOW,0.034,Sufficient shelf-life (151 days) relative to stock level (15.19d supply). Low wastage risk.
+H06,M12,Pantoprazole,2025-12-31,139,55,,2026-04-28,118,2.53,139,0,LOW,0.044,Sufficient shelf-life (118 days) relative to stock level (2.53d supply). Low wastage risk.
+H06,M13,Amlodipine,2025-12-31,0,44,,2026-04-11,101,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H06,M14,Atorvastatin,2025-12-31,147,47,,2026-04-22,112,3.13,147,0,LOW,0.049,Sufficient shelf-life (112 days) relative to stock level (3.13d supply). Low wastage risk.
+H06,M15,Cetirizine,2025-12-31,0,59,,2026-04-24,114,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H06,M16,Dexamethasone,2025-12-31,814,25,,2026-03-03,62,32.56,814,0,MEDIUM,0.159,Elevated inventory (32.56d supply) with expiration within 62 days.
+H06,M17,Ondansetron,2025-12-31,0,36,,2026-05-10,130,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H06,M18,Furosemide,2025-12-31,113,25,,2026-04-07,97,4.52,113,0,LOW,0.064,Sufficient shelf-life (97 days) relative to stock level (4.52d supply). Low wastage risk.
+H06,M19,Adrenaline,2025-12-31,146,16,,2026-02-22,53,9.12,146,0,MEDIUM,0.141,Approaching expiry window (53 days remaining). Usage must be closely monitored.
+H06,M20,Salbutamol Inhaler,2025-12-31,0,24,,2026-03-07,66,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H07,M01,Paracetamol,2025-12-31,0,62,,2026-03-14,73,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H07,M02,Ibuprofen,2025-12-31,587,55,,2026-06-01,152,10.67,587,0,LOW,0.031,Sufficient shelf-life (152 days) relative to stock level (10.67d supply). Low wastage risk.
+H07,M03,Amoxicillin,2025-12-31,339,45,,2026-04-12,102,7.53,339,0,LOW,0.062,Sufficient shelf-life (102 days) relative to stock level (7.53d supply). Low wastage risk.
+H07,M04,Azithromycin,2025-12-31,249,36,,2026-05-07,127,6.92,249,0,LOW,0.042,Sufficient shelf-life (127 days) relative to stock level (6.92d supply). Low wastage risk.
+H07,M05,Ceftriaxone,2025-12-31,0,38,,2026-05-23,143,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H07,M06,Metformin,2025-12-31,2666,64,,2026-02-21,52,41.66,2666,0,HIGH,0.206,"Narrow shelf-life of 52 days with substantial inventory (41.66d supply, 80.1% shelf-life coverage)."
+H07,M07,Insulin,2025-12-31,0,24,,2026-04-09,99,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H07,M08,Salbutamol,2025-12-31,159,40,,2026-05-31,151,3.98,159,0,LOW,0.027,Sufficient shelf-life (151 days) relative to stock level (3.98d supply). Low wastage risk.
+H07,M09,ORS,2025-12-31,0,71,,2026-06-11,162,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H07,M10,IV Fluids,2025-12-31,209,82,,2026-02-20,51,2.55,209,0,MEDIUM,0.133,Approaching expiry window (51 days remaining). Usage must be closely monitored.
+H07,M11,Omeprazole,2025-12-31,0,42,,2026-05-10,130,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H07,M12,Pantoprazole,2025-12-31,1035,43,,2026-06-20,171,24.07,1035,0,LOW,0.031,Sufficient shelf-life (171 days) relative to stock level (24.07d supply). Low wastage risk.
+H07,M13,Amlodipine,2025-12-31,173,39,,2026-05-18,138,4.44,173,0,LOW,0.033,Sufficient shelf-life (138 days) relative to stock level (4.44d supply). Low wastage risk.
+H07,M14,Atorvastatin,2025-12-31,470,31,,2026-02-20,51,15.16,470,0,HIGH,0.158,"Narrow shelf-life of 51 days with substantial inventory (15.16d supply, 29.7% shelf-life coverage)."
+H07,M15,Cetirizine,2025-12-31,387,41,,2026-03-03,62,9.44,387,0,LOW,0.122,Sufficient shelf-life (62 days) relative to stock level (9.44d supply). Low wastage risk.
+H07,M16,Dexamethasone,2025-12-31,0,24,,2026-06-15,166,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H07,M17,Ondansetron,2025-12-31,0,33,,2026-03-08,67,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H07,M18,Furosemide,2025-12-31,0,32,,2026-03-02,61,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H07,M19,Adrenaline,2025-12-31,285,13,,2026-05-05,125,21.92,285,0,LOW,0.055,Sufficient shelf-life (125 days) relative to stock level (21.92d supply). Low wastage risk.
+H07,M20,Salbutamol Inhaler,2025-12-31,407,22,,2026-05-18,138,18.5,407,0,LOW,0.043,Sufficient shelf-life (138 days) relative to stock level (18.5d supply). Low wastage risk.
+H08,M01,Paracetamol,2025-12-31,860,141,,2026-02-27,58,6.1,860,0,MEDIUM,0.125,Approaching expiry window (58 days remaining). Usage must be closely monitored.
+H08,M02,Ibuprofen,2025-12-31,1343,84,,2026-06-26,177,15.99,1343,0,LOW,0.025,Sufficient shelf-life (177 days) relative to stock level (15.99d supply). Low wastage risk.
+H08,M03,Amoxicillin,2025-12-31,0,69,,2026-05-24,144,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H08,M04,Azithromycin,2025-12-31,0,68,,2026-06-23,174,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H08,M05,Ceftriaxone,2025-12-31,187,56,,2026-04-26,116,3.34,187,0,LOW,0.046,Sufficient shelf-life (116 days) relative to stock level (3.34d supply). Low wastage risk.
+H08,M06,Metformin,2025-12-31,0,112,,2026-03-03,62,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H08,M07,Insulin,2025-12-31,353,54,,2026-05-19,139,6.54,353,0,LOW,0.034,Sufficient shelf-life (139 days) relative to stock level (6.54d supply). Low wastage risk.
+H08,M08,Salbutamol,2025-12-31,0,60,,2026-05-25,145,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H08,M09,ORS,2025-12-31,442,95,,2026-04-13,103,4.65,442,0,LOW,0.058,Sufficient shelf-life (103 days) relative to stock level (4.65d supply). Low wastage risk.
+H08,M10,IV Fluids,2025-12-31,0,95,,2026-04-18,108,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H08,M11,Omeprazole,2025-12-31,1168,94,,2026-06-08,159,12.43,1168,0,LOW,0.029,Sufficient shelf-life (159 days) relative to stock level (12.43d supply). Low wastage risk.
+H08,M12,Pantoprazole,2025-12-31,1379,78,,2026-06-01,152,17.68,1379,0,LOW,0.035,Sufficient shelf-life (152 days) relative to stock level (17.68d supply). Low wastage risk.
+H08,M13,Amlodipine,2025-12-31,0,67,,2026-03-23,82,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H08,M14,Atorvastatin,2025-12-31,0,66,,2026-04-24,114,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H08,M15,Cetirizine,2025-12-31,621,94,,2026-06-09,160,6.61,621,0,LOW,0.025,Sufficient shelf-life (160 days) relative to stock level (6.61d supply). Low wastage risk.
+H08,M16,Dexamethasone,2025-12-31,108,44,,2026-05-30,150,2.45,108,0,LOW,0.026,Sufficient shelf-life (150 days) relative to stock level (2.45d supply). Low wastage risk.
+H08,M17,Ondansetron,2025-12-31,199,51,,2026-04-12,102,3.9,199,0,LOW,0.059,Sufficient shelf-life (102 days) relative to stock level (3.9d supply). Low wastage risk.
+H08,M18,Furosemide,2025-12-31,904,44,,2026-03-15,74,20.55,904,0,MEDIUM,0.115,Elevated inventory (20.55d supply) with expiration within 74 days.
+H08,M19,Adrenaline,2025-12-31,158,27,,2026-03-17,76,5.85,158,0,LOW,0.092,Sufficient shelf-life (76 days) relative to stock level (5.85d supply). Low wastage risk.
+H08,M20,Salbutamol Inhaler,2025-12-31,0,32,,2026-01-10,10,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H09,M01,Paracetamol,2025-12-31,0,121,,2026-05-11,131,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H09,M02,Ibuprofen,2025-12-31,974,76,,2026-05-13,133,12.82,974,0,LOW,0.042,Sufficient shelf-life (133 days) relative to stock level (12.82d supply). Low wastage risk.
+H09,M03,Amoxicillin,2025-12-31,269,59,,2026-03-03,62,4.56,269,0,LOW,0.114,Sufficient shelf-life (62 days) relative to stock level (4.56d supply). Low wastage risk.
+H09,M04,Azithromycin,2025-12-31,240,42,,2026-02-14,45,5.71,240,0,HIGH,0.154,"Imminent shelf-life expiration in 45 days (stock=240, supply=5.71d). High sensitivity to consumption slowdown."
+H09,M05,Ceftriaxone,2025-12-31,915,45,,2026-02-25,56,20.33,915,0,HIGH,0.154,"Narrow shelf-life of 56 days with substantial inventory (20.33d supply, 36.3% shelf-life coverage)."
+H09,M06,Metformin,2025-12-31,207,73,,2026-06-24,175,2.84,207,0,LOW,0.018,Sufficient shelf-life (175 days) relative to stock level (2.84d supply). Low wastage risk.
+H09,M07,Insulin,2025-12-31,0,36,,2026-02-24,55,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H09,M08,Salbutamol,2025-12-31,784,71,,2026-06-22,173,11.04,784,0,LOW,0.023,Sufficient shelf-life (173 days) relative to stock level (11.04d supply). Low wastage risk.
+H09,M09,ORS,2025-12-31,0,110,,2026-05-09,129,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H09,M10,IV Fluids,2025-12-31,0,109,,2026-04-04,94,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H09,M11,Omeprazole,2025-12-31,68,58,,2026-04-25,115,1.17,68,0,LOW,0.045,Sufficient shelf-life (115 days) relative to stock level (1.17d supply). Low wastage risk.
+H09,M12,Pantoprazole,2025-12-31,0,58,,2026-03-30,89,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H09,M13,Amlodipine,2025-12-31,373,64,,2026-05-09,129,5.83,373,0,LOW,0.039,Sufficient shelf-life (129 days) relative to stock level (5.83d supply). Low wastage risk.
+H09,M14,Atorvastatin,2025-12-31,254,51,,2026-03-07,66,4.98,254,0,LOW,0.107,Sufficient shelf-life (66 days) relative to stock level (4.98d supply). Low wastage risk.
+H09,M15,Cetirizine,2025-12-31,932,54,,2026-04-24,114,17.26,932,0,LOW,0.06,Sufficient shelf-life (114 days) relative to stock level (17.26d supply). Low wastage risk.
+H09,M16,Dexamethasone,2025-12-31,347,39,,2026-03-10,69,8.9,347,0,LOW,0.108,Sufficient shelf-life (69 days) relative to stock level (8.9d supply). Low wastage risk.
+H09,M17,Ondansetron,2025-12-31,682,39,,2026-06-18,169,17.49,682,0,LOW,0.028,Sufficient shelf-life (169 days) relative to stock level (17.49d supply). Low wastage risk.
+H09,M18,Furosemide,2025-12-31,267,44,,2026-06-11,162,6.07,267,0,LOW,0.024,Sufficient shelf-life (162 days) relative to stock level (6.07d supply). Low wastage risk.
+H09,M19,Adrenaline,2025-12-31,0,24,,2026-03-23,82,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H09,M20,Salbutamol Inhaler,2025-12-31,0,34,,2026-05-10,130,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H10,M01,Paracetamol,2025-12-31,0,127,,2026-02-18,49,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H10,M02,Ibuprofen,2025-12-31,343,71,,2026-06-12,163,4.83,343,0,LOW,0.023,Sufficient shelf-life (163 days) relative to stock level (4.83d supply). Low wastage risk.
+H10,M03,Amoxicillin,2025-12-31,374,53,,2026-05-09,129,7.06,374,0,LOW,0.04,Sufficient shelf-life (129 days) relative to stock level (7.06d supply). Low wastage risk.
+H10,M04,Azithromycin,2025-12-31,0,56,,2026-04-18,108,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H10,M05,Ceftriaxone,2025-12-31,0,42,,2026-06-13,164,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H10,M06,Metformin,2025-12-31,34,75,,2026-04-26,116,0.45,34,0,LOW,0.044,Sufficient shelf-life (116 days) relative to stock level (0.45d supply). Low wastage risk.
+H10,M07,Insulin,2025-12-31,125,43,,2026-03-15,74,2.91,125,0,LOW,0.091,Sufficient shelf-life (74 days) relative to stock level (2.91d supply). Low wastage risk.
+H10,M08,Salbutamol,2025-12-31,540,54,,2026-05-05,125,10.0,540,0,LOW,0.045,Sufficient shelf-life (125 days) relative to stock level (10.0d supply). Low wastage risk.
+H10,M09,ORS,2025-12-31,144,101,,2026-03-07,66,1.43,144,0,LOW,0.102,Sufficient shelf-life (66 days) relative to stock level (1.43d supply). Low wastage risk.
+H10,M10,IV Fluids,2025-12-31,913,121,,2026-06-23,174,7.55,913,0,LOW,0.021,Sufficient shelf-life (174 days) relative to stock level (7.55d supply). Low wastage risk.
+H10,M11,Omeprazole,2025-12-31,2457,79,,2026-03-18,77,31.1,2457,0,MEDIUM,0.124,Elevated inventory (31.1d supply) with expiration within 77 days.
+H10,M12,Pantoprazole,2025-12-31,0,74,,2026-04-01,91,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H10,M13,Amlodipine,2025-12-31,0,51,,2026-04-08,98,0.0,0,0,LOW,0.0,No current stock on hand; zero wastage risk.
+H10,M14,Atorvastatin,2025-12-31,180,65,,2026-06-03,154,2.77,180,0,LOW,0.025,Sufficient shelf-life (154 days) relative to stock level (2.77d supply). Low wastage risk.
+H10,M15,Cetirizine,2025-12-31,1351,63,,2026-04-30,120,21.44,1351,0,LOW,0.059,Sufficient shelf-life (120 days) relative to stock level (21.44d supply). Low wastage risk.
+H10,M16,Dexamethasone,2025-12-31,272,39,,2026-03-02,61,6.97,272,0,LOW,0.12,Sufficient shelf-life (61 days) relative to stock level (6.97d supply). Low wastage risk.
+H10,M17,Ondansetron,2025-12-31,202,43,,2026-02-22,53,4.7,202,0,MEDIUM,0.133,Approaching expiry window (53 days remaining). Usage must be closely monitored.
+H10,M18,Furosemide,2025-12-31,952,42,,2026-03-19,78,22.67,952,0,MEDIUM,0.111,Elevated inventory (22.67d supply) with expiration within 78 days.
+H10,M19,Adrenaline,2025-12-31,68,27,,2026-04-28,118,2.52,68,0,LOW,0.044,Sufficient shelf-life (118 days) relative to stock level (2.52d supply). Low wastage risk.
+H10,M20,Salbutamol Inhaler,2025-12-31,89,44,,2026-04-20,110,2.02,89,0,LOW,0.05,Sufficient shelf-life (110 days) relative to stock level (2.02d supply). Low wastage risk.
