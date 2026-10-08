@@ -1,0 +1,13 @@
+# Core Data Processing & Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning & Forecasting
+scikit-learn>=1.3.0
+
+# Visualization & Dashboard
+streamlit>=1.28.0
+plotly>=5.18.0
+
+# Utilities
+python-dateutil>=2.8.2
